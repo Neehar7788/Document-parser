@@ -1,0 +1,221 @@
+# ============================================================
+# Python
+# ============================================================
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# pyenv
+.python-version
+
+# ============================================================
+# Node.js / React
+# ============================================================
+# Dependencies
+node_modules/
+jspm_packages/
+
+# Production build
+build/
+dist/
+
+# Testing
+coverage/
+
+# Misc
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+.pnpm-debug.log*
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# ============================================================
+# Environment Variables & Secrets
+# ============================================================
+.env
+*.env
+!.env.example
+
+# API Keys and credentials
+*.key
+*.pem
+*.crt
+secrets/
+credentials/
+
+# ============================================================
+# Database
+# ============================================================
+# SQLite
+*.db
+*.sqlite
+*.sqlite3
+
+# PostgreSQL
+*.sql.backup
+*.dump
+
+# ============================================================
+# Document Processing
+# ============================================================
+# Processed files tracking (contains potentially large file lists)
+processed_files.txt
+
+# Uploaded documents (don't commit user documents)
+uploads/
+documents/
+pdfs/
+*.pdf
+*.docx
+*.doc
+*.xlsx
+*.xls
+
+# Temporary processing files
+temp/
+tmp/
+*.tmp
+
+# ============================================================
+# Redis
+# ============================================================
+dump.rdb
+appendonly.aof
+
+# ============================================================
+# OS Generated Files
+# ============================================================
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
+*.lnk
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+
+# Linux
+*~
+.directory
+.Trash-*
+
+# ============================================================
+# IDEs and Editors
+# ============================================================
+# VSCode
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# PyCharm
+.idea/
+*.iml
+*.iws
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# Vim
+[._]*.s[a-v][a-z]
+[._]*.sw[a-p]
+[._]s[a-rt-v][a-z]
+[._]ss[a-gi-z]
+[._]sw[a-p]
+
+# ============================================================
+# Logs and Monitoring
+# ============================================================
+logs/
+*.log
+log.txt
+
+# ============================================================
+# Backup Files
+# ============================================================
+*.bak
+*.backup
+*.old
+*~
+
+# ============================================================
+# System Files
+# ============================================================
+.cache/
+.temp/
+.tmp/
